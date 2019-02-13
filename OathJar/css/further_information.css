@@ -1,0 +1,208 @@
+.further-information-wrapper {
+	
+	padding-top: 105px;
+	padding-bottom: 65px;
+}
+@media (min-width: 1140px) {
+	.further-information-wrapper {
+		background-image: url("../img/illustrations/illustration.png");
+		background-repeat: no-repeat;
+		background-position: left 100px;
+		-webkit-background-size: 530px auto;
+		background-size: 530px auto;
+	}
+}
+@media (min-width: 1400px) {
+	.further-information-wrapper {
+		background-size: auto auto;
+	}
+}
+.further-information-image-mobile {
+	padding-bottom: 50px;
+}
+.further-information-image-mobile img {
+	max-width: 100%;
+	height: auto;
+}
+@media (min-width: 1140px) {
+	.further-information-image-mobile {
+		display: none;
+	}
+}
+.further-information-content {
+	width: 100%;
+	margin-left: auto;
+	color:  #0d3e60;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 1.875;/* Приближение из-за подстановки шрифтов */
+	opacity: 0.86;
+	margin-bottom: 40px;
+}
+@media (min-width: 1140px) {
+	.further-information-content {
+		width: 555px;
+	}
+}
+@media (min-width: 700px) {
+	.further-information-content {
+		width: 555px;
+	}
+}
+.further-information-content p {
+	margin-bottom: 20px;
+}
+.checklist {
+	color:  #0d3e60;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	line-height: 36px;/* Приближение из-за подстановки шрифтов */
+	margin: 0;
+	padding: 0;
+	padding-top: 15px;
+	list-style-type: none;
+	margin-bottom: 50px;
+}
+.checklist li {
+	margin-bottom: 5px;
+	position: relative;
+	padding-left: 47px;
+}
+.checklist li:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 32px;
+	height: 29px;
+	left: 0;
+	top: 10px;
+	margin-bottom: 15px;
+	background-image: url("../img/icons/tickbox.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.form {
+
+}
+.input {
+	background-color: #fff9df;
+    background: linear-gradient(to top, #fff9df 0%, #fffdf4 100%);
+	width: 293px;
+	height: 51px;
+	border: none;
+	border-radius: 19px;
+	color:  #2e435e;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 1;/* Приближение из-за подстановки шрифтов */
+	padding-left: 26px;
+	padding-right: 26px;
+	margin-right: 25px;
+}
+@media (min-width: 700px) {
+	.input {
+		margin-bottom: 0;
+	}
+}
+.input:focus {
+	outline: none;
+}
+::-webkit-input-placeholder {
+	color:  #2e435e;
+}
+.checkbox {
+	display: none;
+}
+.checkbox:checked + .checkbox-fake::after {
+	width: 11px;
+	height: 11px;
+}
+.checkbox-fake {
+    border-radius: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	box-shadow: 2px 2px 0 rgba(14, 15, 33, 0.07);
+	border: 1px solid rgba(194, 194, 194, 0.4);
+	background-color: #ffffff;
+	position: relative;
+}
+.checkbox-fake::after {
+	content: "";
+    border-radius: 8px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	background-color: #eb5238;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-webkit-transition: 0.2s ease-in;
+	   -moz-transition: 0.2s ease-in;
+	    -ms-transition: 0.2s ease-in;
+	     -o-transition: 0.2s ease-in;
+	        transition: 0.2s ease-in;
+}
+.checkbox-description {
+	color: #0d3e60;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 30px; /* Приближение из-за подстановки шрифтов */
+}
+.checkbox-description a {
+	color: #0d3e60;
+	font-weight: 700;
+	line-height: 30px; /* Приближение из-за подстановки шрифтов */
+	text-decoration: underline;
+}
+.submit {
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 30px;/* Приближение из-за подстановки шрифтов */
+	cursor: pointer;
+	border-radius: 20px;
+	background-color: #eb5238;
+    background: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
+	width: 216px;
+	height: 52px;
+	border: none;
+	margin-right: 27px;
+}
+.submit:hover {
+	background: linear-gradient(to top, #eb6f38 0%, #eb5238 100%);
+
+}
+.submit:focus {
+	outline: none;
+}
+.form-notice {
+	color: #0d3e60;
+	font-size: 14px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px; /* Приближение из-за подстановки шрифтов */
+}
+.form-notice a {
+	color: #eb5238;
+	font-weight: 700;
+	line-height: 24px; /* Приближение из-за подстановки шрифтов */
+	text-decoration: underline;
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 25px;
+}
+@media (min-width: 700px) {
+	.form-group {
+		flex-direction: row;
+		align-items: center;
+	}
+}
+.form-label {
+	cursor: pointer;
+}

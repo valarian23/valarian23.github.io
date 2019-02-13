@@ -1,0 +1,231 @@
+.header-main {
+	height: 770px;
+	width: 100%;
+	background-color: #4a454b;
+	clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 80%);
+}
+.logo {
+	float: left;
+	height: 70px;
+}
+.menu-nav {
+	float: right;
+	margin-top: 20px;
+}
+.menu-nav a {
+	padding-right: 40px;
+	font-family: 'Roboto';
+	font-size: 15px;
+	font-weight: 100;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.2;
+}
+.menu-nav a:last-child {
+	padding-right: 0px;
+}
+.header-top {
+	padding-top: 45px;
+	padding-right: 50px;
+	padding-left: 50px;
+	vertical-align: middle;
+}
+.timer {
+	font-family: 'Roboto';
+	border-width: 2px;
+	border-color: rgb(144, 210, 61);
+	border-style: solid;
+	border-radius: 20px;
+	position: relative;
+	left: 0;
+    right: 200px;
+    top: 100px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: auto;
+    padding-left: auto;
+}
+.header__icons {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	padding-top: 200px;
+}
+.header__icons-item {
+	
+}
+.icon-1 {
+	position: absolute;
+    left: -30px;
+    bottom: -300px;
+}
+.icon-2 {
+	position: absolute;
+    left: 130px;
+    bottom: -270px;
+}
+.icon-3 {
+	position: absolute;
+    left: 260px;
+    bottom: -240px;
+}
+.welcome-block {
+	padding-left: 30px;
+}
+
+.welcome-title {
+	font-family: 'Roboto';
+	font-size: 50px;
+	font-weight: 900;
+}
+.welcome-text {
+	font-family: 'Roboto';
+	font-size: 14px;
+	font-weight: 300;
+}
+.modal-window-1 {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 1px 2px 0px rgba(35, 31, 32, 0.65);
+	position: absolute;
+	top: -250px;
+	width: 430px;
+	height: 530px;
+}
+.modal-windows-title {
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 25px;
+}
+.modal-window-textbox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(144, 210, 61);
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 15px;
+}
+.modal-window-button {
+	text-align: center;
+	background-color: #93c840;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #93c840;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-top: 40px;
+}
+.button {
+	font-size: 20px;
+  	font-family: "Roboto";
+  	color: #fff;
+  	font-weight: 700;
+  	line-height: 1.2;
+  
+}
+.modal-window-text {
+	font-family: 'Roboto';
+	font-size: 15px;
+  	font-weight: 300;
+  	text-align: center;
+  	padding-top: 20px;
+}
+.icon-block {
+	padding-top: 140px;
+}
+.block-item {
+	text-align: center;
+	padding-left: 30px;
+}
+.block-item-title {
+	padding-top: 50px;
+	font-family: "Roboto";
+	font-weight: 900;
+	color: #000;
+	font-size: 35px;
+}
+.block-item-text {
+	padding-top: 25px;
+	font-family: "Roboto";
+	font-weight: 300;
+	color: #000;
+	font-size: 15px;
+}
+.block-item img {
+	vertical-align: bottom;
+	height: 211px;
+}
+.time-table {
+	height: 375px;
+	border-radius: 15px;
+	padding-left: 30px;
+	padding-top: 100px;
+}
+.time-table__header {
+	background-color: #a3cc40;
+	border-radius: 15px 15px 0 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Roboto";
+	font-weight: 900;
+	color: #fff;
+	font-size: 30px;
+}
+.first-column {
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #fff;
+	font-size: 22px;
+	padding-left: 55px;
+}
+.second-column {
+	text-align: left;
+	font-family: "Roboto";
+	font-weight: 400;
+	color: #fff;
+	font-size: 22px;
+	padding-left: 55px;
+}
+.first-column-header {
+	text-align: center;
+}
+.second-column-header {
+	text-align: left;
+
+}
+.third-column {
+	text-align: center;
+}
+.time-table__first-row {
+	background-color: #373737;
+	padding-top: 25px;
+	padding-bottom: 13px;
+}
+.time-table__second-row {
+	background-color: #4b4d4f;
+	padding-top: 25px;
+	padding-bottom: 13px;
+}
+.time-table__last-row {
+	background-color: #4b4d4f;
+	border-radius: 0 0 15px 15px;
+	padding-top: 25px;
+	padding-bottom: 13px;
+}
