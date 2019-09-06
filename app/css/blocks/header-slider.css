@@ -1,0 +1,84 @@
+.slide-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 95px;
+}
+.slide-item {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.slide-item__desc {
+  width: 500px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slide-item__heading {
+  color: #0b0c11;
+  font-family: 'Playfair Display', serif;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 15px;
+}
+.slide-item__heading span {
+  display: block;
+  color: #5da8ef;
+  font-family: 'League-Spartan', sans-serif;
+  font-size: 9px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.4px;
+  margin-bottom: 20px;
+}
+.slide-item__text {
+  width: 390px;
+  color: #8f8f8f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+.slide-item__img {
+  width: 1016px;
+  height: 572px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: -16px 25px 65px rgba(11, 12, 17, 0.2);
+}
+.slide-item__img--bg-1 {
+  background-image: url("../../img/img/img-header.jpg");
+}
+.slide-controls {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 81px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide-controls__number {
+  font-family: 'League-Spartan', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 4px;
+  color: #ebebeb;
+  text-transform: uppercase;
+}
+.slide-controls-number__active {
+  color: #5dabeb;
+}
+.slide-controls-number__from {
+  color: #ebebeb;
+}
+.slide-controls-number__total {
+  color: #262626;
+}

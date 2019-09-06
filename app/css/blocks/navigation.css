@@ -1,0 +1,35 @@
+.navigation-wrapper {
+  display: flex;
+  height: 128px;
+  align-items: center;
+}
+.nav-logo-wrapper {
+  margin-right: 190px;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'League-Spartan', sans-serif;
+  font-weight: 700;
+}
+.navigation__item {
+  margin-right: 40px;
+}
+.navigation__item:last-child {
+  margin-right: 0;
+}
+.navigation__link {
+  color: rgba(11, 12, 17, 0.9);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 5.58px;
+}
+.navigation__link:hover {
+  text-decoration: none;
+}
