@@ -38,7 +38,25 @@ $(document).ready(function() {
       smartSpeed: 200,
       slideSpeed: 500,
       slideBy: 4,
-      responsiveRefreshRate: 100
+      responsiveRefreshRate: 100,
+      responsive: {
+        0 : {
+            items: 1,
+        },
+        768 : {
+            items: 2,
+        },
+        1024: {
+            items: 3,
+        },
+        1440: {
+            items: 4,
+        },
+        1920: {
+          items: 5,
+        }
+        
+      }
     })
       .on("changed.owl.carousel", syncPosition2);
   
@@ -93,4 +111,6 @@ $(document).ready(function() {
       bigimage.data("owl.carousel").to(number, 300, true);
     });
   });
-  
+    $(".icon").click(function() {
+      $(".nav").slideToggle();
+    });
